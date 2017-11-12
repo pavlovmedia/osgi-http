@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<repository lastmodified="20171112121658.828">
+   <resource id="com.pavlovmedia.oss.osgi.http/1.0.0" symbolicname="com.pavlovmedia.oss.osgi.http" version="1.0.0" presentationname="Pavlov HTTP Client" uri="https://dl.bintray.com/pavlovmedia/pavlov-media-oss/com/pavlovmedia/oss/osgi/http/com.pavlovmedia.oss.osgi.http/1.0.0/com.pavlovmedia.oss.osgi.http-1.0.0.jar">
+      <description>Utilities</description>
+      <size>22959</size>
+      <license>http://www.opensource.org/licenses/mit-license.php</license>
+      <category id="http"/>
+      <capability name="bundle">
+         <p n="symbolicname" v="com.pavlovmedia.oss.osgi.http"/>
+         <p n="presentationname" v="Pavlov HTTP Client"/>
+         <p n="version" t="version" v="1.0.0"/>
+         <p n="manifestversion" v="2"/>
+      </capability>
+      <capability name="package">
+         <p n="package" v="com.pavlovmedia.oss.osgi.http"/>
+         <p n="uses:" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
+         <p n="version" t="version" v="1.0.0"/>
+      </capability>
+      <capability name="package">
+         <p n="package" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
+         <p n="version" t="version" v="1.0.0"/>
+      </capability>
+      <require name="package" filter="(&amp;(package=com.pavlovmedia.oss.osgi.utilities.convertible)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package com.pavlovmedia.oss.osgi.utilities.convertible</require>
+   </resource>
+   <resource id="com.pavlovmedia.oss.osgi.http/1.0.0" symbolicname="com.pavlovmedia.oss.osgi.http" version="1.0.0" presentationname="Pavlov HTTP Client" uri="https://dl.bintray.com/pavlovmedia/pavlov-media-oss/com/pavlovmedia/oss/osgi/http/com.pavlovmedia.oss.osgi.http/1.0.0/com.pavlovmedia.oss.osgi.http-1.0.0.jar">
+      <description>Utilities</description>
+      <size>22959</size>
+      <license>http://www.opensource.org/licenses/mit-license.php</license>
+      <category id="http"/>
+      <capability name="bundle">
+         <p n="symbolicname" v="com.pavlovmedia.oss.osgi.http"/>
+         <p n="presentationname" v="Pavlov HTTP Client"/>
+         <p n="version" t="version" v="1.0.0"/>
+         <p n="manifestversion" v="2"/>
+      </capability>
+      <capability name="package">
+         <p n="package" v="com.pavlovmedia.oss.osgi.http"/>
+         <p n="uses:" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
+         <p n="version" t="version" v="1.0.0"/>
+      </capability>
+      <capability name="package">
+         <p n="package" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
+         <p n="version" t="version" v="1.0.0"/>
+      </capability>
+      <require name="package" filter="(&amp;(package=com.pavlovmedia.oss.osgi.utilities.convertible)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package com.pavlovmedia.oss.osgi.utilities.convertible</require>
+   </resource>
+</repository>
