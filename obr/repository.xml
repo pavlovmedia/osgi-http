@@ -1,47 +1,49 @@
 <?xml version="1.0" ?>
-<repository lastmodified="20171112121658.828">
-   <resource id="com.pavlovmedia.oss.osgi.http/1.0.0" symbolicname="com.pavlovmedia.oss.osgi.http" version="1.0.0" presentationname="Pavlov HTTP Client" uri="https://dl.bintray.com/pavlovmedia/pavlov-media-oss/com/pavlovmedia/oss/osgi/http/com.pavlovmedia.oss.osgi.http/1.0.0/com.pavlovmedia.oss.osgi.http-1.0.0.jar">
+<repository lastmodified="20181018023715.922">
+   <resource id="com.pavlovmedia.oss.osgi.http/1.0.2" symbolicname="com.pavlovmedia.oss.osgi.http" version="1.0.2" presentationname="Pavlov HTTP Client" uri="https://dl.bintray.com/pavlovmedia/pavlov-media-oss/com/pavlovmedia/oss/osgi/http/com.pavlovmedia.oss.osgi.http/1.0.2/com.pavlovmedia.oss.osgi.http-1.0.2.jar">
       <description>Utilities</description>
-      <size>22959</size>
+      <size>29454</size>
       <license>http://www.opensource.org/licenses/mit-license.php</license>
       <category id="http"/>
       <capability name="bundle">
          <p n="symbolicname" v="com.pavlovmedia.oss.osgi.http"/>
          <p n="presentationname" v="Pavlov HTTP Client"/>
-         <p n="version" t="version" v="1.0.0"/>
+         <p n="version" t="version" v="1.0.2"/>
          <p n="manifestversion" v="2"/>
       </capability>
       <capability name="package">
          <p n="package" v="com.pavlovmedia.oss.osgi.http"/>
-         <p n="uses:" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
-         <p n="version" t="version" v="1.0.0"/>
+         <p n="version" t="version" v="1.0.2"/>
+         <p n="uses:" v="com.pavlovmedia.oss.osgi.utilities.convertible,javax.net.ssl"/>
       </capability>
       <capability name="package">
          <p n="package" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
-         <p n="version" t="version" v="1.0.0"/>
+         <p n="version" t="version" v="1.0.2"/>
       </capability>
-      <require name="package" filter="(&amp;(package=com.pavlovmedia.oss.osgi.utilities.convertible)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package com.pavlovmedia.oss.osgi.utilities.convertible</require>
+      <require name="package" filter="(&amp;(package=com.pavlovmedia.oss.osgi.utilities.convertible)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package com.pavlovmedia.oss.osgi.utilities.convertible</require>
+      <require name="package" filter="(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.net.ssl</require>
    </resource>
-   <resource id="com.pavlovmedia.oss.osgi.http/1.0.0" symbolicname="com.pavlovmedia.oss.osgi.http" version="1.0.0" presentationname="Pavlov HTTP Client" uri="https://dl.bintray.com/pavlovmedia/pavlov-media-oss/com/pavlovmedia/oss/osgi/http/com.pavlovmedia.oss.osgi.http/1.0.0/com.pavlovmedia.oss.osgi.http-1.0.0.jar">
+   <resource id="com.pavlovmedia.oss.osgi.http/1.0.2" symbolicname="com.pavlovmedia.oss.osgi.http" version="1.0.2" presentationname="Pavlov HTTP Client" uri="https://dl.bintray.com/pavlovmedia/pavlov-media-oss/com/pavlovmedia/oss/osgi/http/com.pavlovmedia.oss.osgi.http/1.0.2/com.pavlovmedia.oss.osgi.http-1.0.2.jar">
       <description>Utilities</description>
-      <size>22959</size>
+      <size>29454</size>
       <license>http://www.opensource.org/licenses/mit-license.php</license>
       <category id="http"/>
       <capability name="bundle">
          <p n="symbolicname" v="com.pavlovmedia.oss.osgi.http"/>
          <p n="presentationname" v="Pavlov HTTP Client"/>
-         <p n="version" t="version" v="1.0.0"/>
+         <p n="version" t="version" v="1.0.2"/>
          <p n="manifestversion" v="2"/>
       </capability>
       <capability name="package">
          <p n="package" v="com.pavlovmedia.oss.osgi.http"/>
-         <p n="uses:" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
-         <p n="version" t="version" v="1.0.0"/>
+         <p n="version" t="version" v="1.0.2"/>
+         <p n="uses:" v="com.pavlovmedia.oss.osgi.utilities.convertible,javax.net.ssl"/>
       </capability>
       <capability name="package">
          <p n="package" v="com.pavlovmedia.oss.osgi.utilities.convertible"/>
-         <p n="version" t="version" v="1.0.0"/>
+         <p n="version" t="version" v="1.0.2"/>
       </capability>
-      <require name="package" filter="(&amp;(package=com.pavlovmedia.oss.osgi.utilities.convertible)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package com.pavlovmedia.oss.osgi.utilities.convertible</require>
+      <require name="package" filter="(&amp;(package=com.pavlovmedia.oss.osgi.utilities.convertible)(&amp;(version&gt;=1.0.0)(!(version&gt;=2.0.0))))" extend="false" multiple="false" optional="false">Import package com.pavlovmedia.oss.osgi.utilities.convertible</require>
+      <require name="package" filter="(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))" extend="false" multiple="false" optional="false">Import package javax.net.ssl</require>
    </resource>
 </repository>
