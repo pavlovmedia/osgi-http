@@ -1,0 +1,3 @@
+include:
+  - project: 'research/buildscripts'
+    file: '/java.yaml'
